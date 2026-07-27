@@ -14,7 +14,8 @@ A modern, fully responsive sushi restaurant landing page built with **HTML**, **
 
 ## 📸 Preview
 
-/Users/adarshdas/Desktop/Screenshot 2026-07-25 at 10.44.39 PM.png
+<img width="1453" height="833" alt="Screenshot 2026-07-25 at 10 44 39 PM" src="https://github.com/user-attachments/assets/60ab1dd8-2905-4586-8487-cf270172d15b" />
+
 
 ---
 
