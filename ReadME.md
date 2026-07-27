@@ -23,25 +23,25 @@ A modern, fully responsive sushi restaurant landing page built with **HTML**, **
 
 * 🍣 Modern Restaurant Landing Page
 A visually appealing sushi-themed website featuring a clean layout, engaging visuals, and an intuitive user experience.
-📱 Fully Responsive Design
+* 📱 Fully Responsive Design
 Optimized for mobile phones, tablets, laptops, and desktops using responsive layouts, flexible units, and media queries.
-🎨 CSS Variables
+* 🎨 CSS Variables
 Uses CSS custom properties to centralize colors, typography, spacing, and other design values, making styling consistent and easy to maintain.
-📦 Modular CSS Architecture
+* 📦 Modular CSS Architecture
 Styles are split into multiple CSS files and imported where needed, resulting in a cleaner, more organized, and scalable codebase.
-⚡ Built with Vite
+* ⚡ Built with Vite
 Utilizes Vite for a fast development environment with instant hot reloading and optimized production builds.
-🧩 Reusable JavaScript Components
+* 🧩 Reusable JavaScript Components
 Generates HTML dynamically using reusable JavaScript functions, reducing code duplication and improving maintainability.
-✨ Smooth Animations & Transitions
+* ✨ Smooth Animations & Transitions
 Incorporates subtle animations and interactive effects to create a polished, engaging browsing experience without compromising performance.
-📐 Modern CSS Layouts
+* 📐 Modern CSS Layouts
 Makes extensive use of Flexbox and positioning techniques to build responsive, well-structured, and visually balanced sections.
-🏷️ BEM Methodology
+* 🏷️ BEM Methodology
 Follows the Block Element Modifier (BEM) naming convention to keep CSS modular, predictable, and easier to scale.
-📁 Organized Project Structure
+* 📁 Organized Project Structure
 Maintains a logical file and folder hierarchy, making the project easier to navigate, extend, and collaborate on.
-🚀 Performance-Oriented Development
+* 🚀 Performance-Oriented Development
 Focuses on clean code, reusable components, and efficient styling practices to ensure a fast, maintainable, and production-ready frontend.
 
 ---
