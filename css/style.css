@@ -369,3 +369,65 @@ a {
   }
 }
 /* END: trending media queries */
+
+@media screen and (max-width: 320px) {
+  /* Force both sections to render Image First -> Text Second */
+  .trending-sushi,
+  .trending-drink,
+  .trending-drinks {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .trending__image {
+    order: 1; /* Always image first */
+    padding: 32px 0 10px 0;
+  }
+
+  .trending__content {
+    order: 2; /* Always text second */
+    width: 100%;
+    padding: 16px 20px 22px 20px;
+    position: relative;
+    left: 0;
+    right: 0;
+  }
+
+  .trending__content .sushi__title {
+    font-size: 42px;
+    line-height: 50px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+  }
+
+  .trending__content .sushi__description {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 16px 0 28px 0;
+  }
+
+  /* Checkbox list into 2 columns */
+  .trending__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px 20px;
+  }
+
+  .trending__list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .trending__list li p {
+    font-size: 16px;
+    color: var(--secondary-color);
+  }
+
+  .trending__image img {
+    width: 75%;
+    max-width: 280px;
+    height: auto;
+    object-fit: contain;
+  }
+}
